@@ -85,7 +85,7 @@ public class BXDownloader: NSObject {
         #endif
       }
       catch {
-        
+        self.resumeData = nil
       }
     })
   }
